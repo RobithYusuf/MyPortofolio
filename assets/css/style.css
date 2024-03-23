@@ -1471,6 +1471,14 @@ textarea.form-input::-webkit-resizer {
   }
 }
 
+@media (min-width: 350px) {
+  .clients-item {
+    flex: 0 0 20%; /* Mengubah lebar item menjadi 20% */
+    max-width: 20%;
+    padding: 2px; /* Mengurangi padding item menjadi 2px */
+    scroll-snap-align: center;
+  }
+}
 /**
  * responsive larger than 450px screen
  */
@@ -1481,7 +1489,7 @@ textarea.form-input::-webkit-resizer {
    */
    .clients-item {
     flex: 0 0 20%; /* Mengubah lebar item menjadi 20% */
-    max-width: 18%;
+    max-width: 20%;
     padding: 2px; /* Mengurangi padding item menjadi 2px */
     scroll-snap-align: center;
   }
@@ -1751,6 +1759,8 @@ textarea.form-input::-webkit-resizer {
     scroll-padding-inline: 45px;
   }
 
+
+
   .clients-item {
     min-width: calc(33.33% - 35px);
   }
@@ -2002,10 +2012,6 @@ textarea.form-input::-webkit-resizer {
  */
 
 @media (min-width: 1024px) {
-  /**
-   * CUSTOM PROPERTY
-   */
-
   :root {
     /**
     * shadow
