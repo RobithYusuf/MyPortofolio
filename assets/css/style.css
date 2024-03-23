@@ -2098,9 +2098,11 @@ textarea.form-input::-webkit-resizer {
 
   .clients-item {
     flex: 1; /* Memberi item fleksibilitas untuk tumbuh dan menyusut */
-    max-width: calc(25% - 16px); /* Mengatur batas maksimum lebar item */
+    max-width: 20%;
+    /* max-width: calc(25% - 16px); */
     margin: 0 8px; /* Menjaga jarak antar item */
   }
+
 
   /**
 
