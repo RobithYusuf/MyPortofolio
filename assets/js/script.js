@@ -1,6 +1,9 @@
 "use strict";
 
-// Navigasi  di refresh tetap berada di class active sesuai hastagnya #...
+/*=========================================================================*\
+ Navigasi  di refresh tetap berada di class active sesuai hastagnya #...
+\*=========================================================================*/
+
 document.addEventListener("DOMContentLoaded", function () {
   function navigateToSection() {
     var hash = window.location.hash.substr(1); // Mengambil nilai hash tanpa '#'
@@ -10,12 +13,15 @@ document.addEventListener("DOMContentLoaded", function () {
       section.classList.remove("active");
     });
 
-    // Mencari bagian yang sesuai dengan hash dan menambahkan class 'active'
-    if (hash) {
-      var targetSection = document.querySelector('[data-page="' + hash + '"]');
-      if (targetSection) {
-        targetSection.classList.add("active");
-      }
+    // Jika tidak ada hash, gunakan default 'about' sebagai hash
+    if (!hash) {
+      hash = "about"; // Default ke 'about' jika tidak ada hash
+      window.location.hash = "#" + hash; // Opsional: Tambahkan #about ke URL
+    }
+
+    var targetSection = document.querySelector('[data-page="' + hash + '"]');
+    if (targetSection) {
+      targetSection.classList.add("active");
     }
 
     // Menyesuaikan navigasi berdasarkan hash
@@ -34,6 +40,10 @@ document.addEventListener("DOMContentLoaded", function () {
   // Panggil fungsi saat halaman dimuat
   navigateToSection();
 });
+
+/*======================*\
+  #End Navigasi Active
+\*======================*/
 
 // element toggle function
 const elementToggleFunc = function (elem) {
@@ -199,3 +209,11 @@ for (let i = 0; i < navigationLinks.length; i++) {
     }
   });
 }
+
+/*==========================*\
+    #Halaman Project Saya
+\*==========================*/
+
+/*==========================*\
+    #End Halaman Project
+\*==========================*/

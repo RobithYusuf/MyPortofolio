@@ -1199,27 +1199,11 @@ main {
 }
 
 .blog-posts-list {
+  /* margin-bottom: 250px; */
   display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
 }
-.coming-soon {
-  text-align: center;
-  padding: 20px;
-  margin-top: 30px; /* Sesuaikan dengan kebutuhan */
-  background-color: #f0f0f0; /* Warna latar belakang */
-  border-radius: 8px; /* Sudut bulat */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Bayangan kotak */
-}
-
-.coming-soon p {
-  color: #333; /* Warna teks */
-  font-style: italic;
-  font-size: 24px; /* Ukuran teks */
-  font-weight: bold; /* Ketebalan teks */
-  letter-spacing: 1.2px; /* Spasi antar huruf */
-}
-
 .blog-post-item > a {
   position: relative;
   background: var(--border-gradient-onyx);
@@ -1297,6 +1281,87 @@ main {
   font-weight: var(--fw-300);
   line-height: 1.6;
 }
+/* ========================== */
+  /* #Commingsoon */
+/* ========================== */
+.coming-soon-wrapper {
+  width: 100%;
+  height: 400px; /* Mengatur tinggi konten "Coming Soon" */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1a1a1a;
+  background-image: linear-gradient(135deg, #1a1a1a 0%, #262626 100%);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.coming-soon-content {
+  text-align: center;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  width: 90%;
+}
+
+.coming-soon-title {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.coming-soon-text {
+  color: #666;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.loader {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #3498db;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 2s linear infinite;
+  margin: 0 auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Responsif untuk perangkat mobile */
+@media (max-width: 480px) {
+  .coming-soon-wrapper {
+    height: 300px; /* Mengatur tinggi konten "Coming Soon" pada mode mobile */
+  }
+
+  .coming-soon-title {
+    font-size: 28px;
+  }
+
+  .coming-soon-text {
+    font-size: 16px;
+  }
+
+  .loader {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/* ============================ */
+/* End Comming Soon */
+/* ============================ */
+
+
 
 /*-----------------------------------*\
   #CONTACT
