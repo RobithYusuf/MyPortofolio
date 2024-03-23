@@ -1,0 +1,45 @@
+
+
+# My Portfolio Website
+
+Selamat datang di repositori kode sumber untuk website portofolio saya. Website ini dirancang untuk menampilkan karya, pencapaian, dan informasi profesional tentang saya. Dibangun dengan tujuan untuk memudahkan komunikasi dan kolaborasi dengan rekan-rekan seprofesi serta potensial pemberi kerja.
+
+## Screenshot
+
+Berikut adalah tampilan antarmuka dari website portofolio saya:
+
+Dekstop: 
+![Screenshot Website Portofolio](https://i.postimg.cc/J44LNdvZ/Screenshot-40.png)
+
+Responsive Mobile:
+![Screenshot Website Portofolio](https://i.postimg.cc/qM3vhF3w/i-Phone-12-PRO-portfolio-github-io-test.png)
+
+
+
+## Fitur
+
+Website portofolio ini mencakup beberapa fitur utama, antara lain:
+
+- **Home:** Beranda dengan pengenalan singkat tentang diri saya.
+- **About Me:** Halaman yang menjelaskan lebih detail tentang latar belakang pendidikan, keahlian, dan pengalaman kerja saya.
+- **Projects:** Galeri proyek yang telah saya kerjakan atau terlibat di dalamnya, lengkap dengan studi kasus dan tautan ke repositori kode (jika ada).
+- **Certifications:** Daftar sertifikasi profesional yang telah saya peroleh.
+- **Contact:** Formulir kontak untuk pengunjung yang ingin berkomunikasi dengan saya secara langsung.
+
+## Teknologi
+
+Website ini dibangun menggunakan teknologi berikut:
+
+- HTML5
+- CSS3 (dengan penggunaan Flexbox dan Grid untuk layout)
+- JavaScript (untuk interaktivitas)
+
+## Kontribusi
+
+Saya terbuka untuk kontribusi atau saran untuk meningkatkan website portofolio ini. Jika Anda memiliki ide atau perbaikan, jangan ragu untuk membuat `Issue` atau `Pull Request` pada repositori ini.
+
+## Lisensi
+
+Proyek ini dilisensikan di bawah [Lisensi MIT](LICENSE).
+
+---
