@@ -1490,6 +1490,72 @@ textarea.form-input::-webkit-resizer {
   background: var(--bg-gradient-jet);
 }
 
+
+/* education dan experience */
+.experience-icon-box {
+  width: 50px;
+  height: 50px;
+  background-color: var(--text-gradient-yellow);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.experience-icon-box ion-icon {
+  font-size: 24px;
+  color: var(--white);
+}
+
+.experience-h3 {
+  color: var(--white);
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.experience-timeline-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.experience-timeline-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+
+.experience-timeline-icon {
+  width: 50px;
+  height: 50px;
+  background-color: var(--text-gradient-yellow);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.experience-timeline-icon ion-icon {
+  font-size: 24px;
+  color: var(--white);
+}
+
+.experience-timeline-content {
+  flex: 1;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.experience-timeline-text {
+  color: var(--light-gray);
+  line-height: 1.5;
+}
+/* end resume experience dan education */
+
 /*-----------------------------------*\
   #RESPONSIVE
 \*-----------------------------------*/
@@ -1543,6 +1609,7 @@ textarea.form-input::-webkit-resizer {
     padding: 2px; /* Mengurangi padding item menjadi 2px */
     scroll-snap-align: center;
   }
+  
 }
 /**
  * responsive larger than 450px screen
@@ -1854,68 +1921,6 @@ textarea.form-input::-webkit-resizer {
 
   
   
-  .experience-icon-box {
-    width: 50px;
-    height: 50px;
-    background-color: var(--text-gradient-yellow);
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 15px;
-  }
-  
-  .experience-icon-box ion-icon {
-    font-size: 24px;
-    color: var(--white);
-  }
-  
-  .experience-h3 {
-    color: var(--white);
-    text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-  }
-  
-  .experience-timeline-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .experience-timeline-item {
-    display: flex;
-    align-items: flex-start;
-    margin-bottom: 30px;
-  }
-  
-  .experience-timeline-icon {
-    width: 50px;
-    height: 50px;
-    background-color: var(--text-gradient-yellow);
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 20px;
-  }
-  
-  .experience-timeline-icon ion-icon {
-    font-size: 24px;
-    color: var(--white);
-  }
-  
-  .experience-timeline-content {
-    flex: 1;
-    background-color: rgba(255, 255, 255, 0.1);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  }
-  
-
-  .experience-timeline-text {
-    color: var(--light-gray);
-    line-height: 1.5;
-  }
   
   /**
    * #PORTFOLIO, BLOG
