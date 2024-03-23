@@ -1471,7 +1471,7 @@ textarea.form-input::-webkit-resizer {
   }
 }
 
-@media (min-width: 300px) {
+@media (min-width: 350px) and (max-width: 449px){
   .clients-item {
     flex: 0 0 20%; /* Mengubah lebar item menjadi 20% */
     max-width: 20%;
@@ -1940,6 +1940,19 @@ textarea.form-input::-webkit-resizer {
    * ABOUT
    */
 
+   .clients-item {
+    flex: 0 0 20%; /* Mengubah lebar item menjadi 20% */
+    max-width: 20%;
+    padding: 2px; /* Mengurangi padding item menjadi 2px */
+    scroll-snap-align: center;
+  }
+  
+
+  .clients-item svg {
+    width: 60px; /* Mengurangi ukuran ikon menjadi 40px */
+    height: 60px;
+  }
+
   /* testimonials modal */
 
   .testimonials-modal {
@@ -2098,8 +2111,8 @@ textarea.form-input::-webkit-resizer {
 
   .clients-item {
     flex: 1; /* Memberi item fleksibilitas untuk tumbuh dan menyusut */
-    max-width: 20%;
-    /* max-width: calc(25% - 16px); */
+    /* max-width: 20%; */
+    max-width: calc(25% - 16px);
     margin: 0 8px; /* Menjaga jarak antar item */
   }
 
