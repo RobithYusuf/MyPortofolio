@@ -1460,7 +1460,7 @@ textarea.form-input::-webkit-resizer {
 
   .clients-item {
     flex: 0 0 20%; /* Mengubah lebar item menjadi 20% */
-    max-width: 15%;
+    max-width: 20%;
     padding: 2px; /* Mengurangi padding item menjadi 2px */
     scroll-snap-align: center;
   }
