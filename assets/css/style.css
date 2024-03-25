@@ -326,13 +326,14 @@ main {
   background: var(--bg-gradient-onyx);
   border-radius: 20px;
 }
-
 .info-content .name {
   color: var(--white-2);
   font-size: var(--fs-3);
   font-weight: var(--fw-500);
   letter-spacing: -0.25px;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
 }
 
 .info-content .title {
@@ -347,14 +348,26 @@ main {
 
 .info-content .username {
   color: var(--white-1);
-  /* background: var(--onyx); */
   font-size: var(--fs-8);
   font-weight: var(--fw-300);
   margin: -3px 0 6px 5px;
- width: max-content; 
- 
-  /* padding: 3px 12px;
-  border-radius: 8px; */
+  width: max-content;
+}
+
+.verified-icon {
+  margin-left: 8px;
+  position: relative;
+}
+
+.verified-icon img {
+  height: 24px;
+  width: 24px;
+  vertical-align: middle;
+  transition: transform 0.3s ease;
+}
+
+.verified-icon:hover img {
+  transform: scale(1.2);
 }
 
 .info_more-btn {
