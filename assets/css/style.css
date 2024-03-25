@@ -1205,6 +1205,19 @@ main {
 /*-----------------------------------*\
   #BLOG
 \*-----------------------------------*/
+.section-header {
+
+  margin-bottom: 40px;
+}
+
+.section-description {
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--light-gray);
+  position: relative;
+  display: inline-block;
+  padding: 0 20px;
+}
 
 .blog-posts {
   margin-bottom: 10px;
@@ -1233,6 +1246,21 @@ main {
   background: var(--eerie-black-1);
   z-index: -1;
 }
+
+.blog-svg-icons {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  margin-top: 20px;
+}
+
+.blog-svg-icons svg {
+  width: 25px;
+  height: 25px;
+  margin: 0 5px;
+  
+}
+
 
 .blog-banner-box {
   width: 100%;
