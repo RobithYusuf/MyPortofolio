@@ -791,15 +791,19 @@ main {
  * #clients 
  */
 
-
-
+ .skill-name {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+  color: var(--light-gray-70);
+}
+ 
 .clients {
   margin-bottom: 15px;
 }
 
 .clients-list {
   display: flex;
-  flex-wrap: wrap; /* Menambahkan properti flex-wrap */
   justify-content: flex-start;
   align-items: flex-start;
   margin: 0 -15px;
@@ -816,24 +820,6 @@ main {
   scroll-snap-align: start;
   min-width: fit-content !important;
   text-align: center;
-  margin-right: 15px; /* Menambahkan margin kanan pada setiap item */
-  margin-bottom: 15px; /* Menambahkan margin bawah pada setiap item */
-}
-
-@media (min-width: 1251px) {
-  .clients-list {
-    justify-content: flex-start;
-  }
-
-  .clients-item {
-    flex: 0 0 calc(20% - 40px);
-    margin-right: 40px;
-    margin-bottom: 40px;
-  }
-
-  .clients-item:nth-child(5n) {
-    margin-right: 0;
-  }
 }
 
 .clients-item svg {
@@ -845,13 +831,6 @@ main {
 
 .clients-item svg:hover {
   transform: scale(1.1);
-}
-
-.clients-item .skill-name {
-  text-align: center;
-  margin-top: 10px;
-  font-size: 14px;
-  color: var(--light-gray);
 }
 
 .text-blue {
@@ -881,7 +860,6 @@ main {
 .text-white {
   color: #ededeb;
 }
-
 /*-----------------------------------*\
   #RESUME
 \*-----------------------------------*/
