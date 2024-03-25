@@ -1214,9 +1214,8 @@ main {
   font-size: 16px;
   font-weight: bold;
   color: var(--light-gray);
-  position: relative;
-  display: inline-block;
-  padding: 0 20px;
+ 
+
 }
 
 .blog-posts {
