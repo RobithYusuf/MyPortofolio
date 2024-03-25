@@ -1595,13 +1595,6 @@ textarea.form-input::-webkit-resizer {
 \*-----------------------------------*/
 
 @media (max-width: 768px) {
-  .clients-item .skill-name {
-    text-align: center;
-    margin-top: 10px;
-    font-size: 14px;
-    color: var(--light-gray);
-  }
-  
   .clients-list {
     overflow-x: auto;
     white-space: nowrap;
@@ -1621,13 +1614,6 @@ textarea.form-input::-webkit-resizer {
 }
 
 @media (min-width: 769px) and (max-width: 1023px) {
-  .clients-item .skill-name {
-    text-align: center;
-    margin-top: 10px;
-    font-size: 14px;
-    color: var(--light-gray);
-  }
-  
   .clients-list {
     display: flex;
     overflow-x: auto;
@@ -1658,12 +1644,6 @@ textarea.form-input::-webkit-resizer {
     scroll-snap-align: center;
   }
   
-  .clients-item .skill-name {
-    text-align: center;
-    margin-top: 10px;
-    font-size: 14px;
-    color: var(--light-gray);
-  }
   
 }
 /**
@@ -1674,13 +1654,6 @@ textarea.form-input::-webkit-resizer {
   /**
    * client
    */
-   .clients-item .skill-name {
-    text-align: center;
-    margin-top: 10px;
-    font-size: 14px;
-    color: var(--light-gray);
-  }
-  
    .clients-item {
     flex: 0 0 20%; /* Mengubah lebar item menjadi 20% */
     max-width: 20%;
@@ -1953,13 +1926,7 @@ textarea.form-input::-webkit-resizer {
     scroll-padding-inline: 45px;
   }
 
-  .clients-item .skill-name {
-    text-align: center;
-    margin-top: 10px;
-    font-size: 14px;
-    color: var(--light-gray);
-  }
-  
+
 
   .clients-item {
     min-width: calc(33.33% - 35px);
@@ -2077,13 +2044,7 @@ textarea.form-input::-webkit-resizer {
   /**
    * ABOUT
    */
-   .clients-item .skill-name {
-    text-align: center;
-    margin-top: 10px;
-    font-size: 14px;
-    color: var(--light-gray);
-  }
-  
+
    .clients-item {
     flex: 0 0 20%; /* Mengubah lebar item menjadi 20% */
     max-width: 20%;
@@ -2252,13 +2213,7 @@ textarea.form-input::-webkit-resizer {
     flex-wrap: wrap;
     justify-content: center;
   }
-  .clients-item .skill-name {
-    text-align: center;
-    margin-top: 10px;
-    font-size: 14px;
-    color: var(--light-gray);
-  }
-  
+
   .clients-item {
     flex: 1; /* Memberi item fleksibilitas untuk tumbuh dan menyusut */
     /* max-width: 20%; */
