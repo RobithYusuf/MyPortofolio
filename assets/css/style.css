@@ -791,15 +791,17 @@ main {
  * #clients 
  */
 
+
+
 .clients {
   margin-bottom: 15px;
 }
 
 .clients-list {
   display: flex;
+  flex-wrap: wrap; /* Menambahkan properti flex-wrap */
   justify-content: flex-start;
   align-items: flex-start;
-  /* gap: 15px; */
   margin: 0 -15px;
   padding: 25px;
   padding-bottom: 25px;
@@ -811,39 +813,71 @@ main {
 }
 
 .clients-item {
-  /* min-width: 50%; */
   scroll-snap-align: start;
   min-width: fit-content !important;
+  text-align: center;
+  margin-right: 15px; /* Menambahkan margin kanan pada setiap item */
+  margin-bottom: 15px; /* Menambahkan margin bawah pada setiap item */
+}
+
+@media (min-width: 1251px) {
+  .clients-list {
+    justify-content: flex-start;
+  }
+
+  .clients-item {
+    flex: 0 0 calc(20% - 40px);
+    margin-right: 40px;
+    margin-bottom: 40px;
+  }
+
+  .clients-item:nth-child(5n) {
+    margin-right: 0;
+  }
 }
 
 .clients-item svg {
-  width: 50px; /* Adjust based on your preference */
+  width: 50px;
   height: 50px;
   filter: grayscale(0);
   transition: var(--transition-1);
 }
 
 .clients-item svg:hover {
-  transform: scale(1.1); /* Hover effect to enlarge icons */
+  transform: scale(1.1);
 }
+
+.clients-item .skill-name {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+  color: var(--light-gray);
+}
+
 .text-blue {
   color: #7577aa;
 }
+
 .text-blue-bold {
   color: #3163ac;
 }
+
 .text-orange {
   color: #f97316;
 }
+
 .text-red {
   color: #f15b5b;
 }
+
 .text-purple {
   color: #563c7a;
 }
+
 .text-yellow {
   color: #f1ea06;
 }
+
 .text-white {
   color: #ededeb;
 }
