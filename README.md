@@ -4,18 +4,6 @@
 
 Selamat datang di repositori kode sumber untuk website portofolio saya. Website ini dirancang untuk menampilkan karya, pencapaian, dan informasi profesional tentang saya. Dibangun dengan tujuan untuk memudahkan komunikasi dan kolaborasi dengan rekan-rekan seprofesi serta potensial pemberi kerja.
 
-## Screenshot
-
-Berikut adalah tampilan antarmuka dari website portofolio saya:
-
-Dekstop: 
-![Screenshot Website Portofolio](https://i.postimg.cc/J44LNdvZ/Screenshot-40.png)
-
-Responsive Mobile:
-![Screenshot Website Portofolio](https://i.postimg.cc/qM3vhF3w/i-Phone-12-PRO-portfolio-github-io-test.png)
-
-
-
 ## Fitur
 
 Website portofolio ini mencakup beberapa fitur utama, antara lain:

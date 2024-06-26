@@ -199,7 +199,7 @@ function lazyLoadMap() {
   mapIframe.src =
     "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253553.36629769515!2d110.86797854999999!3d-6.79765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e70c532064fbb8f%3A0x3027a76e352bb30!2sKabupaten%20Kudus%2C%20Jawa%20Tengah!5e0!3m2!1sid!2sid!4v1707889204981!5m2!1sid!2sid";
   mapIframe.width = "400";
-  mapIframe.height = "150";
+  mapIframe.height = "300";
   mapIframe.loading = "lazy";
   mapContainer.appendChild(mapIframe);
 }
