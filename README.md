@@ -22,12 +22,3 @@ Website ini dibangun menggunakan teknologi berikut:
 - CSS3 (dengan penggunaan Flexbox dan Grid untuk layout)
 - JavaScript (untuk interaktivitas)
 
-## Kontribusi
-
-Saya terbuka untuk kontribusi atau saran untuk meningkatkan website portofolio ini. Jika Anda memiliki ide atau perbaikan, jangan ragu untuk membuat `Issue` atau `Pull Request` pada repositori ini.
-
-## Lisensi
-
-Proyek ini dilisensikan di bawah [Lisensi MIT](LICENSE).
-
----
