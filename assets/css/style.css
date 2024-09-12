@@ -576,18 +576,19 @@ main {
   z-index: -1;
 }
 
+/* servce box edit mobile menjadi left */
 .service-icon-box {
-  margin-bottom: 10px;
+  margin-bottom: 11px;
 }
 
 .service-icon-box img {
-  margin: auto;
+  margin: left;
 }
 
 .service-content-box {
-  text-align: center;
+  text-align: left;
 }
-
+/* batas akhir edit mobile menjadi left, sebelumnya center */
 .service-item-title {
   margin-bottom: 7px;
 }
