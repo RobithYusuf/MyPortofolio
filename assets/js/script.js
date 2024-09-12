@@ -4,6 +4,7 @@
 \*=========================================================================*/
 
 document.addEventListener("DOMContentLoaded", () => {
+  
 	function navigateToSection() {
 		var hash = window.location.hash.substr(1); // Mengambil nilai hash tanpa '#'
 
